@@ -71,11 +71,11 @@ Follow these steps to set up your browser and account:
 
 5. **Download the Book**:
    - Go to the downloads tab and select the option labeled "(no waitlist, but can be very slow)."
+   ![Download Book](images/download-book-1.png)
    - Click "Download now" in a new tab.
    - Choose the download location and keep the book name intact.
    - Organize your downloads by creating a folder for each day’s downloads.
    - Note that you cannot download multiple books simultaneously.
-   ![Download Book](images/download-book-1.png)
    ![Download Book](images/download-book-2.png)
 
 ## Using Calibre with Your E-Reader
