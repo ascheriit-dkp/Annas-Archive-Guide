@@ -75,7 +75,8 @@ Follow these steps to set up your browser and account:
    - Choose the download location and keep the book name intact.
    - Organize your downloads by creating a folder for each day’s downloads.
    - Note that you cannot download multiple books simultaneously.
-   ![Download Book](images/download-book.png)
+   ![Download Book](images/download-book-1.png)
+   ![Download Book](images/download-book-2.png)
 
 ## Using Calibre with Your E-Reader
 
