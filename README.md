@@ -43,7 +43,7 @@ Follow these steps to set up your browser and account:
 1. **Log In**:
    - Click on the bookmark you saved during registration to access the website.
    - Copy the secret key from the bookmark and paste it into the "Secret key" field to log in.
-   ![Anna's Archive Login](images/)
+   ![Anna's Archive Login](images/annas-archive-registration.png)
 
 ## Searching and Downloading
 
