@@ -82,27 +82,22 @@ Follow these steps to set up your browser and account:
 
 1. **Open Calibre**:
    - Launch the Calibre application on your computer.
-   ![Open Calibre](images/open-calibre.png)
 
 2. **Add Books to Calibre**:
    - Drag and drop the books you downloaded into the Calibre app.
-   ![Add Books](images/add-books.png)
 
 3. **Connect Your E-Reader**:
    - Connect your e-reader to your computer.
    - Wait for Calibre to recognize the e-reader.
-   ![Connect E-Reader](images/connect-e-reader.png)
 
 4. **Send Books to Your E-Reader**:
    - Select the books in Calibre.
    - Click on "Send to device" to transfer the books to your e-reader.
    - Monitor the jobs in the bottom-right corner to ensure the transfer is complete.
-   ![Send Books](images/send-books.png)
 
 5. **Disconnect Your E-Reader**:
    - Safely eject your e-reader like a USB drive to avoid data corruption.
    - Enjoy reading your new books!
-   ![Disconnect E-Reader](images/disconnect-e-reader.png)
 
 ## Tips and Tricks
 
