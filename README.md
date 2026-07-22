@@ -164,7 +164,7 @@ Registration is optional. Skip this section if you are using Anna's Archive with
 2. **Refine Search Results**:
    - Use the sidebar filters to refine your search:
      - **Filetype**: Choose `epub` when available. EPUB is usually the best format for ordinary books on an e-reader because the text adapts to the screen. Avoid PDF when a good EPUB version is available.
-     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. 
+     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. The `.rs` part is the source's domain, not the book's file extension.
      - **Language**: Select the desired language.
    ![Refine Search](images/refine-search.png)
 
@@ -175,10 +175,10 @@ Registration is optional. Skip this section if you are using Anna's Archive with
    - Check the "Report file issue" number:
      - Avoid downloading files with reports related to malware, corruption, or the wrong book.
      - If the reported issue is only download difficulty, the file may still be usable.
-     - No report doesn't mean the file is fully safe, only use it as an indicator. 
+     - No reports does not guarantee that a file is safe.
    - Check the "Stats" number:
      - Prefer options with higher statistics for better reliability.
-     - A more popular file has usually been used by more people, but popularity is still only an indicator and not proof that the file is safe.
+     - A more popular file has usually been used by more people, but popularity is only an indicator and not proof that the file is safe.
    - Confirm the title, author, language, edition, file type, and approximate file size.
    ![Download Options](images/download-options.png)
 
@@ -187,104 +187,78 @@ Registration is optional. Skip this section if you are using Anna's Archive with
 
 The checks above are useful indicators, but they are not foolproof. Users who want a stronger check can follow these additional steps.
 
-### 1. Check the Real Filename
+### 1. Require an Exact `.epub` Extension
 
-Make sure the filename ends with the expected extension:
+For this guide, the downloaded file should end exactly with:
 
 ```text
 book-name.epub
 ```
 
-Avoid unexpected or double extensions such as:
+If the file has any other extension, a double extension, or an archive extension, delete it.
+
+Examples to delete:
 
 ```text
 book-name.epub.exe
-book-name.pdf.scr
-book-name.zip.bat
+book-name.pdf
+book-name.zip
+book-name.rar
+book-name.7z
+book-name.apk
 ```
 
 On Windows, enable **View > Show > File name extensions** in File Explorer so that the complete filename is visible.
 
-### 2. Avoid Unexpected File Types
+A file ending in `.epub` can still be malicious, so continue with the VirusTotal scan below.
 
-For normal book reading, avoid files ending in:
+### 2. Do Not Open the File on the Computer
 
-```text
-.exe
-.msi
-.bat
-.cmd
-.scr
-.com
-.js
-.jar
-.apk
-.dmg
-.iso
-```
+Before the scan:
 
-Also be cautious with password-protected archives or unexpected `.zip`, `.rar`, and `.7z` files.
+- Do not double-click the file.
+- Do not preview it.
+- Do not extract it with 7-Zip, WinRAR, or another archive tool.
+- Do not open it in a browser or e-book reader.
+- Do not import it into Calibre.
 
-An EPUB should normally be an `.epub` file, not an installer or executable.
+The objective is to avoid having the computer's e-book software parse or display the file before it has been checked.
 
-### 3. Scan the File Locally
+### 3. Scan the File with VirusTotal
 
-On Windows:
+1. Go to the official [VirusTotal website](https://www.virustotal.com/).
+2. Select the **File** tab.
+3. Click **Choose file**.
+4. Select the downloaded `.epub` file.
+5. Confirm the upload.
+6. Wait for the analysis to finish.
+7. Review the security-vendor results.
 
-1. Right-click the downloaded file.
-2. Select "Scan with Microsoft Defender" or the equivalent option from your antivirus.
-3. Do not open the file if a detection is reported.
+Delete the file if VirusTotal reports it as malicious or suspicious.
 
-On Linux with ClamAV installed:
+If VirusTotal reports no detection, the file has passed this check, but no scanner can guarantee that every threat will be detected.
 
-```bash
-clamscan --infected book-name.epub
-```
+> **Privacy notice:** Files uploaded through the normal VirusTotal service may be shared with VirusTotal's security partners. Do not upload private, confidential, personal, or sensitive documents.
 
-A clean scan is useful, but it does not guarantee that the file is harmless.
+### 4. Transfer the EPUB Directly to the E-Reader
 
-### 4. Inspect an EPUB
+If you plan to read the book only on an e-reader, avoid opening it on the computer after the scan.
 
-An EPUB is normally a ZIP-based container. You can inspect it with an archive viewer such as 7-Zip without opening the book in a reader.
+1. Connect the e-reader to the computer with a USB cable.
+2. Open the e-reader's storage in File Explorer, Finder, or your file manager.
+3. Locate the folder used for books, commonly named `Books`, `Documents`, or `Digital Editions`.
+4. Copy the checked `.epub` file directly into that folder.
+5. Wait for the copy to finish.
+6. Safely eject the e-reader.
+7. Open the book only on the e-reader.
 
-A normal EPUB commonly contains files and folders such as:
+This reduces the computer's exposure to e-book parsing. It does not make the e-reader itself invulnerable, so keep its software or firmware updated.
 
-```text
-META-INF/
-OEBPS/
-mimetype
-content.opf
-.xhtml
-.css
-.jpg
-.png
-```
+### Important Note About Calibre
 
-Be cautious if it contains unexpected executables, installers, shortcuts, or deeply nested archives.
+Calibre does not merely store the file when a book is added. It automatically reads metadata from the e-book and creates a copy in its library.
 
-### 5. Create a SHA-256 Hash
-
-A hash provides a stable identifier for the exact file. It can be useful when comparing copies or reporting a suspicious file.
-
-On Windows PowerShell:
-
-```powershell
-Get-FileHash ".\book-name.epub" -Algorithm SHA256
-```
-
-On macOS or Linux:
-
-```bash
-shasum -a 256 book-name.epub
-```
-
-A hash identifies the file but does not prove that it is safe.
-
-If you use an online reputation service, search for the hash first instead of immediately uploading the complete file. Do not upload private or sensitive documents to a public scanning service.
-
-### 6. Use Updated Reading Software
-
-Open the file using an updated version of Calibre, your e-reader software, or another trusted EPUB reader.
+If your objective is to avoid having the computer process the EPUB, do not import that file into Calibre. Use the direct USB-transfer method above instead.
 
 </details>
 
@@ -298,6 +272,10 @@ Open the file using an updated version of Calibre, your e-reader software, or an
    ![Download Book](images/download-book-2.png)
 
 ## Using Calibre with Your E-Reader
+
+> **Important:** Adding a book to Calibre makes Calibre read its metadata and copy the file into its library. If you want to avoid having the computer process the EPUB, use the direct USB-transfer method in the optional file-safety section instead.
+
+Use Calibre only when you want its library, metadata-editing, conversion, or device-management features.
 
 1. **Open Calibre**:
    - Launch the Calibre application on your computer.
