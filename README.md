@@ -164,7 +164,7 @@ Registration is optional. Skip this section if you are using Anna's Archive with
 2. **Refine Search Results**:
    - Use the sidebar filters to refine your search:
      - **Filetype**: Choose `epub` when available. EPUB is usually the best format for ordinary books on an e-reader because the text adapts to the screen. Avoid PDF when a good EPUB version is available.
-     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. The `.rs` part is the source's domain, not the book's file extension.
+     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. 
      - **Language**: Select the desired language.
    ![Refine Search](images/refine-search.png)
 
