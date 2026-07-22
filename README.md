@@ -175,7 +175,7 @@ Registration is optional. Skip this section if you are using Anna's Archive with
    - Check the "Report file issue" number:
      - Avoid downloading files with reports related to malware, corruption, or the wrong book.
      - If the reported issue is only download difficulty, the file may still be usable.
-     - No reports does not guarantee that a file is safe.
+     - Treat "No reports" as an indicator and not a proof.
    - Check the "Stats" number:
      - Prefer options with higher statistics for better reliability.
      - A more popular file has usually been used by more people, but popularity is only an indicator and not proof that the file is safe.
