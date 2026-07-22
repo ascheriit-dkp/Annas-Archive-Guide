@@ -17,10 +17,8 @@ Welcome to the Anna's Archive Guide! This repository provides a step-by-step gui
 Follow these steps to set up your browser and account:
 
 1. **Download LibreWolf (Optional)**:
-   - You can use Anna's Archive with your usual browser. Installing LibreWolf is not mandatory.
-   - LibreWolf provides stronger default protection against some trackers, cookies, and browser fingerprinting than browsers such as Chrome or Edge.
-   - It does not hide your public IP address and does not make you anonymous.
-   - Visit [LibreWolf's official installation page](https://librewolf.net/installation/).
+   - LibreWolf isn't mandatory but provides stronger default protection against some trackers, cookies, and browser fingerprinting than browsers such as Chrome or Edge.
+   - Visit [LibreWolf's website](https://librewolf.net/installation/).
    - Select the appropriate operating system and follow the installation instructions.
    ![LibreWolf Installation](images/librewolf-installation.png)
 
@@ -132,14 +130,14 @@ A valid signature proves that the message was signed by the matching private key
 </details>
 
 3. **Register an Account (Optional)**:
-   - Registration is not required for basic searching and slow downloads.
+   - Registration is optional and isn't required for basic searching and slow downloads.
    - To register, click on "Log in / Register" on the homepage.
    - Select "Register new account."
    - Store the secret key in a password manager or an encrypted offline note.
-   - Treat the secret key like a password. Do not save it in a synchronized bookmark, screenshot, email, or public message.
    ![Anna's Archive Registration](images/annas-archive-registration.png)
 
-4. **Download Calibre**:
+4. **Download Calibre (Optional)**:
+   - Calibre isn't mandatory but provide library, metadata-editing, conversion, or device-management features.
    - Visit [Calibre's website](https://calibre-ebook.com/).
    - Click on "Download calibre" and select the appropriate operating system.
    - For Windows users, click on "Download calibre 64bit." Select the equivalent option for other operating systems.
@@ -163,8 +161,8 @@ Registration is optional. Skip this section if you are using Anna's Archive with
 
 2. **Refine Search Results**:
    - Use the sidebar filters to refine your search:
-     - **Filetype**: Choose `epub` when available. EPUB is usually the best format for ordinary books on an e-reader because the text adapts to the screen. Avoid PDF when a good EPUB version is available.
-     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. The `.rs` part is the source's domain, not the book's file extension.
+     - **Filetype**: Choose `epub` when available. 
+     - **Source**: You can disable sources you do not trust. For example, it is possible to disable books coming from the Russian Libgen source `Libgen.rs`. 
      - **Language**: Select the desired language.
    ![Refine Search](images/refine-search.png)
 
@@ -173,13 +171,12 @@ Registration is optional. Skip this section if you are using Anna's Archive with
 
 4. **Evaluate Download Options**:
    - Check the "Report file issue" number:
-     - Avoid downloading files with reports related to malware, corruption, or the wrong book.
-     - If the reported issue is only download difficulty, the file may still be usable.
-     - Treat "No reports" as an indicator and not a proof.
+     - Avoid downloading files with issues related to malware.
+     - If the issue is only download difficulty, it's generally safe. 
+     - No report is only an indicator and not foolproof of safety. 
    - Check the "Stats" number:
      - Prefer options with higher statistics for better reliability.
-     - A more popular file has usually been used by more people, but popularity is only an indicator and not proof that the file is safe.
-   - Confirm the title, author, language, edition, file type, and approximate file size.
+     - Good popularity is only and indicator and not foolproof of safety.
    ![Download Options](images/download-options.png)
 
 <details>
