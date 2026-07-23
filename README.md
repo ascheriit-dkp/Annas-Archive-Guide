@@ -132,7 +132,9 @@ A valid signature proves that the message was signed by the matching private key
 
 3. **Register an Account (Optional)**:
 
-Registration is optional. It is useful for keeping a download history, reporting file issues, leaving comments, creating lists, managing donations, and activating a paid membership. It is not required for basic searching and free slow downloads. Be aware that Anna’s Archive currently does not provide a way to delete an account or its download history. Skip this section if you are using Anna's Archive without an account.
+Registration is optional. It is useful for keeping a download history, reporting file issues, leaving comments, creating lists, managing donations, and activating a paid membership. It is not required for basic searching and free slow downloads. Be aware that Anna’s Archive currently does not provide a way to delete an account or its download history. 
+
+Skip this section if you are using Anna's Archive without an account.
    - To register, click on "Log in / Register" on the homepage.
    - Select "Register new account."
    - Store the secret key in a password manager or an encrypted offline note.
