@@ -17,12 +17,13 @@ Welcome to the Anna's Archive Guide! This repository provides a step-by-step gui
 Follow these steps to set up your browser and account:
 
 1. **Download LibreWolf (Optional)**:
-   - LibreWolf isn't mandatory but provides stronger default protection against some trackers, cookies, and browser fingerprinting than browsers such as Chrome or Edge.
+
+LibreWolf isn't mandatory but provides stronger default protection against some trackers, cookies, and browser fingerprinting than browsers such as Chrome or Edge.
    - Visit [LibreWolf's website](https://librewolf.net/installation/).
    - Select the appropriate operating system and follow the installation instructions.
    ![LibreWolf Installation](images/librewolf-installation.png)
 
-2. **Visit Anna's Archive**:
+3. **Visit Anna's Archive**:
    - Go to one of the current Anna's Archive mirrors:
      - [annas-archive.pk](https://annas-archive.pk/)
      - [annas-archive.gd](https://annas-archive.gd/)
@@ -130,14 +131,16 @@ A valid signature proves that the message was signed by the matching private key
 </details>
 
 3. **Register an Account (Optional)**:
-   - Registration is optional and isn't required for basic searching and slow downloads.
+
+Registration is optional. It is useful for keeping a download history, reporting file issues, leaving comments, creating lists, managing donations, and activating a paid membership. It is not required for basic searching and free slow downloads. Be aware that Anna’s Archive currently does not provide a way to delete an account or its download history. Skip this section if you are using Anna's Archive without an account.
    - To register, click on "Log in / Register" on the homepage.
    - Select "Register new account."
    - Store the secret key in a password manager or an encrypted offline note.
    ![Anna's Archive Registration](images/annas-archive-registration.png)
 
 4. **Download Calibre (Optional)**:
-   - Calibre isn't mandatory but provide library, metadata-editing, conversion, or device-management features.
+
+Calibre isn't mandatory but provide library, metadata-editing, conversion, or device-management features.
    - Visit [Calibre's website](https://calibre-ebook.com/).
    - Click on "Download calibre" and select the appropriate operating system.
    - For Windows users, click on "Download calibre 64bit." Select the equivalent option for other operating systems.
@@ -145,7 +148,7 @@ A valid signature proves that the message was signed by the matching private key
 
 ## Accessing Anna's Archive (Registered Users)
 
-Registration is optional. Skip this section if you are using Anna's Archive without an account.
+Skip this section if you are using Anna's Archive without an account.
 
 1. **Log In**:
    - Open one of the verified Anna's Archive mirrors.
@@ -229,13 +232,13 @@ The objective is to avoid having the computer's e-book software parse or display
 4. Select the downloaded `.epub` file.
 5. Confirm the upload.
 6. Wait for the analysis to finish.
-7. Review the security-vendor results.
+7. Review the security-vendor results and any results provided in the others tabs.
 
 Delete the file if VirusTotal reports it as malicious or suspicious.
 
 If VirusTotal reports no detection, the file has passed this check, but no scanner can guarantee that every threat will be detected.
 
-> **Privacy notice:** Files uploaded through the normal VirusTotal service may be shared with VirusTotal's security partners. Do not upload private, confidential, personal, or sensitive documents.
+It is absolutely possible to perform extensive analysis of the file both manually or with some tools, however i will consider that anyone capable of performing such analysis doesn't need in any possible way or form this guide.
 
 ### 4. Transfer the EPUB Directly to the E-Reader
 
