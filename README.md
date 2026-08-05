@@ -33,7 +33,7 @@ LibreWolf isn't mandatory but provides stronger default protection against some 
    - Be careful: fake mirrors and impersonation websites exist. Check the exact spelling of the domain and avoid random or sponsored search results before entering a secret key or downloading anything.
 
 <details>
-<summary><strong>Optional: Verify an Anna's Archive announcement with its signing key</strong></summary>
+<summary><strong>Optional: Verify an Anna's Archive announcement with its signing key (skip if u don't know about signing key).</strong></summary>
 
 Anna's Archive has published a public signing key that can be used to verify signed announcements, including announcements about new domains.
 
