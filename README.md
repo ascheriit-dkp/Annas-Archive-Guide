@@ -161,7 +161,7 @@ Skip this section if you are using Anna's Archive without an account.
 ## Searching and Downloading
 
 1. **Search for Resources**:
-   - Use the search bar to enter the Title, Author, DOI, ISBN, ASIN, MD5, etc.
+   - Use the search bar to enter the Title / Author / DOI / ISBN / ASIN / MD5, etc.
    ![Search Resources](images/search-resources.png)
 
 2. **Refine Search Results**:
