@@ -23,7 +23,7 @@ LibreWolf isn't mandatory but provides stronger default protection against some 
    - Select the appropriate operating system and follow the installation instructions.
    ![LibreWolf Installation](images/librewolf-installation.png)
 
-3. **Visit Anna's Archive**:
+2. **Visit Anna's Archive**:
    - Go to one of the current Anna's Archive mirrors:
      - [annas-archive.pk](https://annas-archive.pk/)
      - [annas-archive.gd](https://annas-archive.gd/)
