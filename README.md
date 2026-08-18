@@ -49,7 +49,7 @@ LibreWolf isn't mandatory but provides stronger default protection against some 
      - [annas-archive.pk](https://annas-archive.pk/)
      - [annas-archive.gd](https://annas-archive.gd/)
      - [annas-archive.gl](https://annas-archive.gl/)
-   - Anna's Archive uses mirrors so that the service can remain available when one domain is blocked, suspended, or taken down.
+   - Anna's Archive uses mirrors so that the service can remain available when one domain is blocked, suspended, or taken down. You can check the current availability of these mirrors on [Open-SLUM](https://open-slum.org/index.html).
    - If the links above no longer work, a common practice is to check the domains listed on the [Anna's Archive Wikipedia page](https://en.wikipedia.org/wiki/Anna%27s_Archive), which is often updated when the official mirrors change.
    - Be careful: fake mirrors and impersonation websites exist. Check the exact spelling of the domain and avoid random or sponsored search results before entering a secret key or downloading anything.
 
