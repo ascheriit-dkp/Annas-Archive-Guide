@@ -2,6 +2,26 @@
 
 Welcome to the Anna's Archive Guide! This repository provides a step-by-step guide for newcomers on how to use Anna's Archive efficiently and with some additional privacy and safety precautions.
 
+<details>
+<summary><strong>TL;DR — Just tell me how to download a book</strong></summary>
+
+ 1. Open your browser.
+ 2. Go to one of these mirrors (if the mirrors are down, [**click here**](#setup-first-time-users)) :
+   - [annas-archive.pk](https://annas-archive.pk/)
+   - [annas-archive.gd](https://annas-archive.gd/)
+   - [annas-archive.gl](https://annas-archive.gl/)
+
+ 3. Search for the book name, author, ISBN, DOI, ASIN, etc.
+ 4. Filter by file type. I recommend EPUB, especially if you plan to put it on an e-reader.
+ 5. Check for file reports and the number of downloads.
+   - This doesn't foolproof the security of the file, but at least you won't be alone if it's infected ;)
+   - Nah, i'm joking, you can scan the file on VirusTotal if u wanna, and if u plan to read the book on a e-reader avoid opening the file on ur computer. [**See below for more details.**](#3-scan-the-file-with-virustotal)
+ 6. Click the slow download option and download the file.
+ 7. Add it to your e-reader using whatever you want. For example with Calibre [**(see the Calibre section)**](#using-calibre-with-your-e-reader).
+ 8. **Enjoy!**
+
+</details>
+
 ## Table of Contents
 
 1. [Setup (First-Time Users)](#setup-first-time-users)
