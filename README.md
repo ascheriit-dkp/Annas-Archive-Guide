@@ -35,7 +35,7 @@ LibreWolf isn't mandatory but provides stronger default protection against some 
 <details>
 <summary><strong>Optional: Verify an Anna's Archive announcement with its signing key (skip if u don't know about signing key).</strong></summary>
 
-Anna's Archive has published a public signing key that can be used to verify signed announcements, including announcements about new domains.
+Anna’s Archive publishes an OpenPGP public key for authenticating official communications in an emergency, particularly if its official domains are taken down. Its FAQ also maintains a chain of attestations linking previous and current official domains.
 
 This is optional and intended for users who want a stronger way to check authenticity.
 
