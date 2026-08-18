@@ -3,7 +3,7 @@
 Welcome to the Anna's Archive Guide! This repository provides a step-by-step guide for newcomers on how to use Anna's Archive efficiently and with some additional privacy and safety precautions.
 
 <details>
-<summary><strong>TL;DR - Just tell me how to download a book</strong></summary>
+<summary><strong>TLDR - Just tell me how to download a book</strong></summary>
 
 1. Open your browser.
 2. Go to one of these mirrors (if the mirrors are down, [**read below**](#visit-annas-archive)):
